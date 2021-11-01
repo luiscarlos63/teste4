@@ -18,9 +18,6 @@ esrg: $(OBJ)
 
 
 
-.PHONY=clean run
+.PHONY=clean
 clean:
 	rm -rf esrg $(OBJ)
-	
-run:
-	@echo ola
