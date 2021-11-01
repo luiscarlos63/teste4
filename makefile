@@ -18,7 +18,9 @@ esrg: $(OBJ)
 
 
 
-.PHONY=clean print_vars
+.PHONY=clean run
 clean:
 	rm -rf esrg $(OBJ)
 	
+run:
+	./esrg
