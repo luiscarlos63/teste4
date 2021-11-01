@@ -23,4 +23,4 @@ clean:
 	rm -rf esrg $(OBJ)
 	
 run:
-	./esrg
+	@echo ola
