@@ -2,6 +2,6 @@
 
 int main()
 {
-    ESRG();//print
+    ESRG();
     return 0;
 }
